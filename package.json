@@ -1,0 +1,28 @@
+{
+  "name": "bridge-node",
+  "version": "1.0.0",
+  "description": "Node App to connect API (source) to MongoDB (destination)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sid093/bridge-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sid093/bridge-node/issues"
+  },
+  "homepage": "https://github.com/sid093/bridge-node#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "axios": "^0.18.0",
+    "cron": "^1.4.1",
+    "dotenv": "^6.0.0",
+    "mongodb": "^3.1.4",
+    "require": "^2.4.20"
+  }
+}
